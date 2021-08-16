@@ -1,0 +1,62 @@
+body{
+    background: hsl(268, 89%, 42%);
+    display: flex;
+}
+#info_obtain, #display{
+    background: rgba(255, 248, 220, 0.705);
+    text-align: center;
+    margin: auto;
+    margin-top: 2em;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding: 1em;
+    width: 60em;
+    min-height: 25em;
+    border-radius: 3%;
+    margin-bottom: 1em;
+}
+#display{
+    margin:auto;
+    margin-top: 2em;
+    min-width: 25em;
+    padding: 2em;
+    min-height: auto;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .7em;
+}
+#Submit{
+    margin-top :1.5em;
+}
+#txt{
+    height: 20em;
+    width: 40em;
+    border-radius: .7em;
+}
+@media screen and (max-width:1200px)
+{
+    #txt{
+        width: 35em;
+    }
+    #display{
+        width: 25em;
+    }
+}
+@media screen and (max-width:995px)
+{
+    #txt{
+        width: 25em;
+    }
+    #display{
+        width: 15em;
+    }
+}
+@media screen and (max-width:770px)
+{
+    #txt{
+        width: 18em;
+    }
+    #display{
+        width: 12em;
+    }
+}
