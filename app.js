@@ -2,7 +2,7 @@ let t=document.querySelector("#txt");
 let d=document.getElementById("display");
 let cur_display;
 let keywords={};
-let common=["this","that","he","she","her","him","a","i","his","they","them","with","it","in","for","of","the","an","it's","to","which","whose","are","whom","or","and","but","is","who","you","how",'from',"will","do","has","we","their","theirs","so","by"];
+let common=["this","that","he","she","her","him","a","i","his","they","them","with","it","in","for","of","the","an","it's","to","which","whose","are","am","whom","or","and","but","is","who","you","how",'from',"will","do","has","we","their","theirs","so","by"];
 let keysSorted,printing_keywords=[];
 let button=document.querySelector("#Submit");
 button.addEventListener("click",function(){
